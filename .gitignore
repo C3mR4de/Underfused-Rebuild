@@ -1,0 +1,9 @@
+*.txt
+*.png
+bin
+obj
+Screenshots
+*.cbp
+*.depend
+*.layout
+*.ttf
