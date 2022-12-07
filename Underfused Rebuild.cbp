@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Underfused Rebuild" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/Underfused Rebuild" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="GUI.cpp" />
+		<Unit filename="GUI.hpp" />
+		<Unit filename="GamePhysics.cpp" />
+		<Unit filename="GamePhysics.hpp" />
+		<Unit filename="MenuFunctions.cpp" />
+		<Unit filename="MenuFunctions.hpp" />
+		<Unit filename="Multiplayer.cpp" />
+		<Unit filename="Multiplayer.hpp" />
+		<Unit filename="NetworkInterface.cpp" />
+		<Unit filename="NetworkInterface.hpp" />
+		<Unit filename="StringManip.cpp" />
+		<Unit filename="StringManip.hpp" />
+		<Unit filename="Underfused.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
